@@ -1,0 +1,66 @@
+.other-proj-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.other-proj-card {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.other-proj-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.folder-icon {
+  color: var(--accent-cyan);
+}
+
+.other-proj-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.other-proj-links a {
+  color: var(--text-muted);
+  transition: color 0.3s ease;
+}
+
+.other-proj-links a:hover {
+  color: var(--accent-cyan);
+}
+
+.other-proj-title {
+  font-size: 1.4rem;
+  color: var(--text-main);
+  margin-bottom: 1rem;
+  transition: color 0.3s ease;
+}
+
+.other-proj-card:hover .other-proj-title {
+  color: var(--accent-cyan);
+}
+
+.other-proj-desc {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  flex-grow: 1;
+}
+
+.other-proj-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}

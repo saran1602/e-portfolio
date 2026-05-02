@@ -1,0 +1,111 @@
+.cert-section {
+  background: relative;
+}
+
+.cert-card {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.cert-icon-container {
+  flex-shrink: 0;
+}
+
+.hexagon {
+  width: 100px;
+  height: 100px;
+  background: rgba(34, 211, 238, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  border: 1px solid var(--accent-cyan);
+}
+
+.hexagon::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  background: var(--bg-dark);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  z-index: 1;
+}
+
+.cert-icon {
+  position: relative;
+  z-index: 2;
+  color: var(--accent-cyan);
+}
+
+.cert-content {
+  flex-grow: 1;
+}
+
+.cert-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--accent-blue);
+}
+
+.cert-title {
+  font-size: 1.5rem;
+  color: var(--text-main);
+  margin-bottom: 1rem;
+}
+
+.cert-description {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.cert-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.skill-tag {
+  background: rgba(16, 24, 39, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.25rem 0.75rem;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  color: var(--accent-purple);
+  font-family: 'Fira Code', monospace;
+}
+
+.btn-icon-only {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .cert-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .cert-skills {
+    justify-content: center;
+  }
+  
+  .cert-action {
+    margin-top: 1rem;
+  }
+}
