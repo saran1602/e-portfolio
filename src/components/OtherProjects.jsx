@@ -8,7 +8,7 @@ const OtherProjects = () => {
       title: 'CareFlowAI',
       description: 'A MERN healthcare platform with doctor/patient dashboards, appointments, and PDF prescriptions. Features a Digital Medical Locker with OCR extraction and a Random Forest risk prediction model using biomarkers.',
       tech: ['MERN Stack', 'Random Forest', 'OCR', 'Machine Learning'],
-      link: '#',
+      link: 'https://github.com/saran1602/caresphereFinal.git',
       github: '#'
     },
     {
