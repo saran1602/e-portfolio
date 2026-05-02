@@ -9,21 +9,21 @@ const OtherProjects = () => {
       description: 'A MERN healthcare platform with doctor/patient dashboards, appointments, and PDF prescriptions. Features a Digital Medical Locker with OCR extraction and a Random Forest risk prediction model using biomarkers.',
       tech: ['MERN Stack', 'Random Forest', 'OCR', 'Machine Learning'],
       link: 'https://github.com/saran1602/caresphereFinal.git',
-      github: '#'
+      github: 'https://github.com/saran1602'
     },
     {
       title: 'SkillMapAI',
       description: 'An AI-powered career intelligence platform for resume parsing, skill gap analysis, and personalized learning roadmaps. Integrates an LLM-based interview simulator and real-time GitHub/LeetCode analytics.',
       tech: ['React', 'FastAPI', 'PostgreSQL', 'NLP', 'LLM'],
-      link: '#',
-      github: '#'
+      link: 'https://github.com/saran1602',
+      github: 'https://github.com/saran1602'
     },
     {
       title: 'CivicTrack',
       description: 'A Smart Public Complaint Lifecycle System to manage citizen complaints. Features a layered Spring Boot backend with workflow state transitions, JWT authentication, role-based dashboards, and SLA escalation schedulers.',
       tech: ['Spring Boot', 'React', 'PostgreSQL', 'JWT'],
-      link: '#',
-      github: '#'
+      link: 'https://github.com/saran1602',
+      github: 'https://github.com/saran1602'
     }
   ];
 
